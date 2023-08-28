@@ -1,0 +1,18 @@
+{
+  "name": "student-attendance-tracker",
+  "version": "1.0.0",
+  "description": "Attendance Tracker for online classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parjanya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "nodemon": "^3.0.1",
+    "objection": "^3.1.1",
+    "pg": "^8.11.3"
+  }
+}
