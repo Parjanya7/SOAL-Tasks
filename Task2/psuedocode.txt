@@ -1,0 +1,28 @@
+Logic:
+
+1. Race #1 to Race #5:
+> Start by racing all the 25 bulls in groups of 5.
+> This way, you will have the result of 5 races, and each race will give a ranking of bulls from 1 to 5.
+
+2. Race #6:
+> Now, race the winners of each of the 5 races.
+> The winner of this race is the fastest bull among all 25.
+
+3. 
+> Eliminate slower bulls: From the Race #6, you can discard the bulls that come 4th and 5th as they are not in the top 3.
+
+4.
+> The bull that comes 2nd and 3rd in Race #6 can still be the 2nd or 3rd fastest overall.
+> You can also discard the bulls that came 2nd, 3rd, 4th, and 5th in the preliminary race of the winner of Race #6, because they are slower than the fastest bull.
+
+5. Race #7: 
+> Now race the 2nd and 3rd bulls from the preliminary race of the 2nd and 3rd place bulls of Race #6, and the 2nd, 3rd, and 4th bulls from the preliminary race of the winner of Race #6. This will be 8 bulls in total, but you can race only 5 at a time, so you have to select the most probable contenders.
+
+6.
+> The 2nd and 3rd bulls from the 2nd and 3rd place bulls of Race #6 are the most probable contenders for the 2nd and 3rd fastest positions.
+
+7.
+> From Race #7, the 1st and 2nd place bulls will be the 2nd and 3rd fastest bulls overall.
+
+Hence,
+Total number of races = 7
